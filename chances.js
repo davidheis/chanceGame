@@ -6,7 +6,7 @@ function guess(x){
 		return '1st go!!!'
 	}
 	if (x > limit - 1 || x < 0) {
-		return 'number must be lower than 100, and more than 0'
+		return 'number must be lower than ' + limit + ', and more than 0'
 	} else {
 		while(x !== random){
 		console.log(random)
